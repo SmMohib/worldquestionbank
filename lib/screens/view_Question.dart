@@ -12,6 +12,12 @@ class ViewQestion extends StatelessWidget {
         appBar: AppBar(
           title: Text('Question View'),
         ),
+        bottomNavigationBar: Container(
+          child: Text('Add'),
+          height: 50,
+          width: double.infinity,
+          color: Colors.brown,
+        ),
         body: Container(
           height: double.infinity,
           margin: EdgeInsets.only(left: 15, right: 15),
